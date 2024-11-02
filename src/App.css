@@ -1,0 +1,140 @@
+body{
+  margin: 0%  ;
+  background-color: black;
+  color: #fff;
+
+}
+
+.main-div{
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+
+
+.nav {
+  height: 80px;
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.fb-logo, .fb-login {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 50px; /* Reduced gap for responsiveness */
+}
+
+.menu svg {
+  font-size: 24px; /* Base size for icons */
+  color: white;
+  transition: font-size 0.2s ease;
+}
+
+@media (min-width: 768px) {
+  .menu svg {
+    font-size: 30px; /* Larger icons on medium screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .menu svg {
+    font-size: 36px; /* Larger icons on large screens */
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.post-container {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(46, 46, 46);
+  border-radius: 8px;
+  width: 400px;
+  margin: auto;
+   margin: 20px auto;
+  padding: 10px;
+  
+}
+
+.post-container > p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.post-photo {
+  width: 100%;
+  padding-top: 20px;
+  
+}
+.dp {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-user-detail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+.like-detail {
+  display: block;
+  margin-top: 10px;
+  color: #b0b0b0;
+  font-size: 14px;
+}
+
+.likeCheck {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+  text-align: center;
+}
+
+.likeCheck div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #b0b0b0;
+}
+
+.likeCheck div span {
+  font-size: 16px;
+}
+
+.likeCheck svg {
+  font-size: 20px;
+  transition: font-size 0.2s ease;
+}
+
+@media (min-width: 768px) {
+  .likeCheck svg {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .likeCheck svg {
+    font-size: 28px;
+  }
+}
